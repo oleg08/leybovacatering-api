@@ -69,7 +69,7 @@ You must replace <code>meowmeowmeow</code> with your personal API key.
 
 # Kittens
 
-## Get All Kittens
+## Get All Menus
 
 ```ruby
 require 'kittn'
@@ -195,7 +195,7 @@ ID | The ID of the kitten to retrieve
 require 'kittn'
 
 api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.delete(2)
+api.menus.delete(2)
 ```
 
 ```python
@@ -231,7 +231,7 @@ This endpoint deletes a specific kitten.
 
 ### HTTP Request
 
-`DELETE http://example.com/kittens/<ID>`
+`DELETE http://leybovacatering.if.ua/kittens/<ID>`
 
 ### URL Parameters
 
